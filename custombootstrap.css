@@ -1,0 +1,33 @@
+body{
+    background-color: gainsboro;
+    height: 100%;
+}
+
+.article{
+    background-color: whitesmoke;
+    
+}
+
+.headtext{
+    background-color: cadetblue;
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 40px;
+}
+
+.customimg{
+width: 150px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+
+
+  
