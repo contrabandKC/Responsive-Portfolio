@@ -37,24 +37,28 @@ a:hover {
 width: 150px;
 }
 
+#aboutMeContent{
+    clear: both;
+
+}
+
+
 
 
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
+    margin-top: 20px !important;
+    background-color: #666666 !important;
     border-top: 8px solid #4aaaa5;
-    color: white;
-    text-align: center;
+    font-size: 10px;
+    clear: both;
+
   }
 
-  .footer-text{
+  /* .footer-text{
       color: lightgray;
       text-align: center;
       margin: 0 auto;
-  }
+  } */
 
   
   @media screen and (max-width: 640px){
@@ -69,11 +73,11 @@ footer {
         list-style: none;
     }
 
-    .aboutMe{
-        display: block;
-        margin: 20px auto;
-        max-width: 75%;
+        .aboutMe{
+            display: block;
+            margin: 20px auto;
+            max-width: 75%;
 
-    }
+        }
 
   }
