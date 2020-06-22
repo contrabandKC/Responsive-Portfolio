@@ -5,11 +5,13 @@ body{
     margin: 0;
 }
 
+/* content Back Ground */
 .article{
     background-color: whitesmoke;
     
 }
 
+/* Grey Links */
 a:link {
     color: #cccccc;
     text-decoration: none;
@@ -25,6 +27,7 @@ a:hover {
     text-decoration: bold;
 }
 
+/* Nav bar */
 .headText{
     color: white;
     font-family: 'Crimson Text', serif;
@@ -39,17 +42,18 @@ width: 150px;
 
 #aboutMeContent{
     clear: both;
+    padding-bottom: 50px !important;
 
 }
 
 
-
+/* Footer */
 
 footer {
-    margin-top: 20px !important;
+    margin-top: 30px !important;
     background-color: #666666 !important;
     border-top: 8px solid #4aaaa5;
-    font-size: 10px;
+    font-size: 12px;
     clear: both;
 
   }
@@ -60,7 +64,7 @@ footer {
       margin: 0 auto;
   }
 
-  
+  /* Small Screen override */
   @media screen and (max-width: 640px){
       .navbar-brand{
         min-width: 100%;
