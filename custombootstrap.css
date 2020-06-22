@@ -8,10 +8,24 @@ body{
     
 }
 
-.headtext{
-    background-color: cadetblue;
+a:link {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+a:visited {
+    color: grey;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4aaaa5;
+    text-decoration: bold;
+}
+
+.headText{
     color: white;
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Crimson Text', serif;
     font-size: 40px;
 }
 
@@ -19,15 +33,24 @@ body{
 width: 150px;
 }
 
-.footer {
+
+
+footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: red;
+    border-top: 8px solid #4aaaa5;
     color: white;
     text-align: center;
   }
 
+  .footer-text{
+      color: lightgray;
+      text-align: center;
+      margin: 0 auto;
+  }
 
+  
   
